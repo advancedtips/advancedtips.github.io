@@ -1,0 +1,43 @@
+.content{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 0 0;
+    section{
+        padding: 10px;
+        width: 80%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        @media screen and (max-width: 500px) {
+            width: 86%;
+        }
+        header{
+            font-size: 34px;
+            font-weight: 600;
+            height: 60px;
+            &::first-letter{
+                color: var(--mint);
+            }
+        }
+        span{
+            display: block;
+            text-align: justify;
+        }
+        #rm{
+            text-decoration: none;
+            color: white;
+            background: var(--mint);
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 20px;
+            border-radius: 1in;
+            margin: 10px 0;
+            padding: 10px;
+            &:hover{
+                background: var(--dmint);
+            }
+        }
+    }
+}

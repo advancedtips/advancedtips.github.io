@@ -1,0 +1,45 @@
+.content {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0 0 0;
+}
+.content section {
+  padding: 10px;
+  width: 80%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 500px) {
+  .content section {
+    width: 86%;
+  }
+}
+.content section header {
+  font-size: 34px;
+  font-weight: 600;
+  height: 60px;
+}
+.content section header::first-letter {
+  color: var(--mint);
+}
+.content section span {
+  display: block;
+  text-align: justify;
+}
+.content section #rm {
+  text-decoration: none;
+  color: white;
+  background: var(--mint);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  border-radius: 1in;
+  margin: 10px 0;
+  padding: 10px;
+}
+.content section #rm:hover {
+  background: var(--dmint);
+}/*# sourceMappingURL=content.css.map */
